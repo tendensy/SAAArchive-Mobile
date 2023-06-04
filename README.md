@@ -7,5 +7,9 @@ Author: Weikton | t.me/weikton
 # Usage
 - check *usage.txt*
 - all files drop to your jni (build69+)
+# How to create SAA?
+- Open *create SAA2* **folder** 
+- Select ***source code*** or ***creator***
+- **Succesful**!
 
 
