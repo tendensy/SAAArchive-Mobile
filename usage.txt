@@ -1,0 +1,19 @@
+// получение конкретного файла
+((CArchiveFS*)pFileSystem)->GetFileIndex(0xbaddea6b);
+
+0xbaddea6b - адресс в ArchiveFS.h 
+чекать после создания архива 
+
+// hooks.cpp
+(( uint32_t (*)(char*, uint32_t))(g_libGTASA+0x28E7B0+1))(pFileSystem->GetFileIndex("gta3.img"), 1);
+
+// main.cpp
+#include "archive/ArchiveFS.h"
+
+CFileSystem *pFileSystem=NULL;
+
+pFileSystem = new CArchiveFS();
+
+char* szArchiveFile[MAX_PLAYERS];
+uint32_t dwFileNameLen = strlen(szArchiveFile[MAX_PLAYERS]);			
+pFileSystem->Load("/storage/emulated/0/cache/archive.saa");
