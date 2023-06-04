@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.2.32602.215
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "arctool2", "arctool2.vcxproj", "{240B2B7F-B020-499A-863F-FEAD1FF943FE}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|x86 = Debug|x86
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{240B2B7F-B020-499A-863F-FEAD1FF943FE}.Debug|x86.ActiveCfg = Debug|Win32
+		{240B2B7F-B020-499A-863F-FEAD1FF943FE}.Debug|x86.Build.0 = Debug|Win32
+		{240B2B7F-B020-499A-863F-FEAD1FF943FE}.Release|x86.ActiveCfg = Release|Win32
+		{240B2B7F-B020-499A-863F-FEAD1FF943FE}.Release|x86.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {182C3DDD-2615-4B60-9BD6-536750E3B988}
+	EndGlobalSection
+EndGlobal
